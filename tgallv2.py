@@ -3,8 +3,8 @@ import asyncio
 
 class Module:
     name = "tag all"
-    short_name = "tgall"
-    activate = "tgall"
+    short_name = "tgall2"
+    activate = "tgall2"
     description = """Tag everyone from chat"""
 
     @classmethod
