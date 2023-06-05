@@ -1,5 +1,5 @@
 import pyrogram
-
+import asyncio
 
 class Module:
     name = "tag all"
@@ -17,6 +17,7 @@ class Module:
         async for user in all_users:
             if x >= 5:
                 await client.send_message(y, w)
+await asyncio.sleep(0.7)
                 w = ""
                 x = 0
             w += '@' + user.user.username + '\n'
