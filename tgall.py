@@ -3,6 +3,7 @@ import pyrogram
 
 class Module:
     name = "tag all"
+    short_name = "tgall"
     activate = "tgall"
     description = """Tag everyone from chat"""
 
