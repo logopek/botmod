@@ -2,7 +2,7 @@ import pyrogram
 import asyncio
 
 class Module:
-    name = "tag all"
+    name = "tag all v2"
     short_name = "tgall2"
     activate = "tgall2"
     description = """Tag everyone from chat"""
